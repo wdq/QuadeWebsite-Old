@@ -1,9 +1,10 @@
 var app = require('./app').init(4000);
 
 var locals = {
-        title: 		 'NodeJS Boostrap using Express / EJS / Twitter Bootstrap / CSS3',
-        description: 'Node Express HTML5 & CSS3',
-        author: 	 'Alexandre Collin'
+        title: 		 'NodeJS Boostrap using Express 3.x / EJS / Twitter Bootstrap / CSS3',
+        description: 'An application template using Express 3.x,  EJS, Twitter Bootstrap, and CSS3',
+        author: 	 'C. Aaron Cois, Alexandre Collin',
+        _layoutFile: true
     };
 
 app.get('/', function(req,res){
