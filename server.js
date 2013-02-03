@@ -1,3 +1,10 @@
+/* 
+ * server.js
+ * 
+ * The main file, to be invoked at the command line. Calls app.js to get 
+ * the Express app object.
+ */
+
 var app = require('./app').init(4000);
 
 var locals = {
