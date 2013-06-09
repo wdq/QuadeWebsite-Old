@@ -8,7 +8,7 @@
 var app = require('./app').init(4000);
 
 var locals = {
-        title: 		 'Node | Express | EJS | Boostrap',
+        title: 		 'William Quade',
         description: 'A Node.js applicaton bootstrap using Express 3.x, EJS, Twitter Bootstrap, and CSS3',
         author: 	 'C. Aaron Cois, Alexandre Collin',
         _layoutFile: true
