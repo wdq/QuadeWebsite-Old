@@ -9,9 +9,10 @@
 
     <!-- styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
+    <link href="css/quade.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+      <style type="text/css">
       body {
-        padding-top: 60px;
         padding-bottom: 40px;
       }
     </style>
@@ -40,21 +41,23 @@
 
 
     <!-- Need mroe Bootstrap features? Uncomment some lines below. -->
-    <script src="js/bootstrap.min.js"></script>
-    <!--
-    <script src="js/bootstrap-transition.js"></script>
-    <script src="js/bootstrap-alert.js"></script>
-    <script src="js/bootstrap-modal.js"></script>
-    <script src="js/bootstrap-dropdown.js"></script>
-    <script src="js/bootstrap-scrollspy.js"></script>
-    <script src="js/bootstrap-tab.js"></script>
-    <script src="js/bootstrap-tooltip.js"></script>
-    <script src="js/bootstrap-popover.js"></script>
-    <script src="js/bootstrap-button.js"></script>
-    <script src="js/bootstrap-collapse.js"></script>
-    <script src="js/bootstrap-carousel.js"></script>
-    <script src="js/bootstrap-typeahead.js"></script>
-    -->
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/twitter-dev/bootstrap-carousel.js"></script>
+     <script src="js/twitter-dev/bootstrap-dropdown.js"></script>
+
+    <!-- <script src="js/twitter-dev/bootstrap-transition.js"></script>
+     <script src="js/twitter-dev/bootstrap-alert.js"></script>
+     <script src="js/twitter-dev/bootstrap-modal.js"></script>
+     <script src="js/twitter-dev/bootstrap-dropdown.js"></script>
+     <script src="js/twitter-dev/bootstrap-scrollspy.js"></script>
+     <script src="js/twitter-dev/bootstrap-tab.js"></script>
+     <script src="js/twitter-dev/bootstrap-tooltip.js"></script>
+     <script src="js/twitter-dev/bootstrap-popover.js"></script>
+     <script src="js/twitter-dev/bootstrap-button.js"></script>
+     <script src="js/twitter-dev/bootstrap-collapse.js"></script>
+     <script src="js/twitter-dev/bootstrap-carousel.js"></script>
+     <script src="js/twitter-dev/bootstrap-typeahead.js"></script> -->
+
 
 
     <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID. -->
@@ -72,6 +75,19 @@
     <!--[if lt IE 7 ]>
       <script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
       <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+
     <![endif]-->
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            $('.carousel').carousel({
+                interval: 7500,
+                loop: true
+            })
+
+        });
+    </script>
+
   </body>
 </html>

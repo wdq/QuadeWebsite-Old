@@ -9,8 +9,8 @@ var app = require('./app').init(4000);
 
 var locals = {
         title: 		 'William Quade',
-        description: 'A Node.js applicaton bootstrap using Express 3.x, EJS, Twitter Bootstrap, and CSS3',
-        author: 	 'C. Aaron Cois, Alexandre Collin',
+        description: 'William Quade: A technology enthusiast who offers freelance web design, hosting, and mobile application development services.',
+        author: 	 'William Quade',
         _layoutFile: true
     };
 

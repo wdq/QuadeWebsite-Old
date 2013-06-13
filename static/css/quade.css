@@ -1,0 +1,93 @@
+.carousel-inner {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    background: rgb(130,95,63); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(130,95,63,1) 0%, rgba(91,44,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(130,95,63,1)), color-stop(100%,rgba(91,44,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(130,95,63,1) 0%,rgba(91,44,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(130,95,63,1) 0%,rgba(91,44,0,1) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(130,95,63,1) 0%,rgba(91,44,0,1) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(130,95,63,1) 0%,rgba(91,44,0,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#825f3f', endColorstr='#5b2c00',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.carousel-caption {
+    opacity: 0.75;
+    background-color: #000000;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 55px;
+}
+
+.carousel-caption a {
+    opacity: 0.50;
+    font-weight: 300;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: 'Lato';
+    color: #ffffff;
+    line-height: 48px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-inner {
+    height: 55px;
+    border-radius: 0;
+}
+
+.navbar .brand {
+    font-size: 32px;
+    font-family: 'Lato';
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.navbar .container {
+    z-index: 10000;
+    width: 1024px;
+    padding-bottom: 0px;
+}
+
+.navbar .nav {
+    font-size: 17px;
+    font-family: 'Lato';
+    font-weight: 300;
+}
+
+.navbar .nav li {
+    line-height: 32px;
+}
+
+.nav-collapse, .nav-collapse.collapse {
+    z-index: 10000;
+    background-color: #000000;
+    opacity: 0.80;
+}
+
+body {
+    background-image: url('https://quade.co/wp-content/uploads/2013/04/gray_jean.png');
+    background-repeat: repeat;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h1 small {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/*
+.spanhomeprofile {
+    width: 128px;
+    height: 128px;
+}      */
