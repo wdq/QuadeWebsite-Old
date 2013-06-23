@@ -35,6 +35,10 @@
     margin-bottom: 0px;
 }
 
+.navbar .nav li a:active {
+    color: #000000;
+}
+
 .navbar-inner {
     height: 55px;
     border-radius: 0;

@@ -5,8 +5,11 @@
  */
 
 var express = require('express')
-  , engine = require('ejs-locals')
-  , app = express();
+var engine = require('ejs-locals')
+var app = express();
+var https = require('https');
+var http = require('http');
+var fs = require('fs');
 
 exports.init = function(port) {
 
@@ -36,9 +39,16 @@ exports.init = function(port) {
         res.render('500.ejs', { locals: { error: err }, status: 500 });
     });
     
-    server = app.listen(port);
+var options = {
+  key: fs.readFileSync('/etc/ssl/http/self.key'),
+  cert: fs.readFileSync('/etc/ssl/http/self.pem')
+};
 
-    console.log("Listening on port %d in %s mode", server.address().port, app.settings.env);
+http.createServer(app).listen(4000);
+https.createServer(options, app).listen(4001);
+//    server = app.listen(port);
+
+//    console.log("Listening on port %d in %s mode", server.address().port, app.settings.env);
 
     return app;
 }
